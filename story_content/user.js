@@ -2,13 +2,13 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6oCOzhk1bHh":
+      case "6So7nlRnOpa":
         Script1();
         break;
-      case "5Ze5aPGCCJs":
+      case "6X4rLqqlNic":
         Script2();
         break;
-      case "6efLfUaTxJJ":
+      case "6QCj1YR7zMZ":
         Script3();
         break;
   }
@@ -42,8 +42,10 @@ storyline =
   "INSTITUCION" : player.GetVar("Institucion"),
   "SEMESTRE" : player.GetVar("Semestre"),
   "DIAPOSITIVAS VISUALISADAS" : player.GetVar("VIS"),
-  "CALIFICACION DE EVALUACION" : player.GetVar("CAL"),
-  "TOTAL DE DIAPOSITIVAS" : player.GetVar("TOT")
+  "TOTAL DE DIAPOSITIVAS" : player.GetVar("TOT"),
+  "CANTIDAD DE INTENTOS" : player.GetVar("intentos"),
+  "INTENTOS <70" : player.GetVar("noaprobado"),
+  "INTENTOS > 69.99" : player.GetVar("aprobado")
 }
 }
 
