@@ -2,22 +2,22 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6kIkEKyi7s6":
+      case "5q02V0it3m6":
         Script1();
         break;
-      case "6Js8gZJcOoL":
+      case "68kXqcGtwxi":
         Script2();
         break;
-      case "6gdZ1bVqNkm":
+      case "6hl61jO2RBq":
         Script3();
         break;
-      case "6BWJiBKgYo3":
+      case "6PUALENi76Y":
         Script4();
         break;
-      case "5mMbsfSNDop":
+      case "6qRmdZYwgRd":
         Script5();
         break;
-      case "5b1G0w84hip":
+      case "6kbYMSHSqki":
         Script6();
         break;
   }
@@ -54,7 +54,8 @@ storyline =
   "TOTAL DE DIAPOSITIVAS" : player.GetVar("TOT"),
   "CANTIDAD DE INTENTOS" : player.GetVar("intentos"),
   "INTENTOS <70" : player.GetVar("noaprobado"),
-  "INTENTOS > 69.99" : player.GetVar("aprobado")
+  "INTENTOS > 69.99" : player.GetVar("aprobado"),
+  "SE IDENTIFICA CON" : player.GetVar("Sombrero")
 }
 }
 
@@ -111,7 +112,8 @@ storyline =
   "TOTAL DE DIAPOSITIVAS" : player.GetVar("TOT"),
   "CANTIDAD DE INTENTOS" : player.GetVar("intentos"),
   "INTENTOS <70" : player.GetVar("noaprobado"),
-  "INTENTOS > 69.99" : player.GetVar("aprobado")
+  "INTENTOS > 69.99" : player.GetVar("aprobado"),
+  "SE IDENTIFICA CON" : player.GetVar("Sombrero")
 }
 }
 
